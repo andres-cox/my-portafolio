@@ -1,0 +1,66 @@
+@import "src/scss/config";
+
+ul {
+  list-style: none;
+}
+.item {
+  display: grid;
+  grid-gap: 4rem;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 20px;
+  margin: 20px 0;
+  color: #fff;
+}
+.project img {
+  width: 100%;
+  // border: 1px #fff solid;
+}
+.project img:hover {
+  opacity: 0.5;
+  border-color: $primary-color;
+  transition: all 0.5s ease-out;
+}
+
+.btn-group {
+  display: flex;
+  text-align: center;
+}
+.btn:hover,
+.btn-dark:hover,
+.btn-light:hover {
+  background: rgb(64, 172, 182);
+  color: #000;
+}
+.btn {
+  padding: 0.3rem 0;
+  text-decoration: none;
+  width: 50%;
+  margin-right: 0rem;
+}
+.btn-dark {
+  background: black;
+  color: #fff;
+}
+
+.btn-light {
+  background: #c4c4c4;
+  color: #333;
+}
+
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  text-align: center;
+  li {
+    padding: 5px;
+  }
+}
+
+/* Small Screens */
+@media (max-width: 950px) {
+  .item {
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+  }
+}

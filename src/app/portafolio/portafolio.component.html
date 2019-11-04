@@ -1,0 +1,17 @@
+<main id="work" class="bg-purple py-4 my-2 ">
+  <h2 class="large">
+    My
+    <span class="text-secondary">Projects</span>
+    <hr />
+  </h2>
+  <div class="projects" *ngFor="let project of projects">
+    <app-project
+      img="{{ this.project.img }}"
+      title="{{ this.project.title }}"
+      description="{{ this.project.description }}"
+      technologies="{{ this.project.technologies }}"
+      live_url="{{ this.project.live_url }}"
+      github="{{ this.project.github }}"
+    ></app-project>
+  </div>
+</main>

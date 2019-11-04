@@ -1,0 +1,22 @@
+// Landing
+.landing {
+  margin-top: 4rem;
+  box-shadow: 0 5px 5px 3px rgba(0, 0, 0, 0.9);
+
+  &-inner {
+    padding: 40px;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+.dark-overlay {
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+/* Small Screens */
