@@ -18,7 +18,8 @@ export class PortafolioComponent implements OnInit {
         "GraphQL",
         "Apollo",
         "MongoDB",
-        "Firebase"
+        "Firebase",
+        "Docker"
       ],
       "https://thawing-plains-52078.herokuapp.com/",
       "https://github.com/andres-cox/management-app/tree/master"
