@@ -1,13 +1,22 @@
 .main {
   //   background-color: #66b391;
-  background: url("https://images.alphacoders.com/782/78291.jpg");
+  background: url("../assets/background.jpg");
   background-repeat: repeat; /* Indicamos que no se repetira */
   background-size: cover; /* Encajamos la imagen al 100% del ancho */
   background-attachment: fixed;
   //
 }
+
 .container {
   width: 90%;
   max-width: 1100px;
   margin: auto;
+}
+
+//phones
+@media (min-width: 320px) and (max-width: 480px) {
+  .container {
+    width: 100%;
+    padding: 0;
+  }
 }
