@@ -1,0 +1,17 @@
+{
+    "header": {
+        "resume": "RESUME",
+        "contact": "CONTACT"
+    },
+    "home": {
+        "title": "Software Developer",
+        "descp1": "Hi, I'm Andres Cox. A software developer from Bolivia. Passionate for web programing, have worked with several frontend and backend technologies.",
+        "descp2": "I studied Electronic Engineering at UMSA in La Paz, and I went through Systems branch. I am looking for the oportunity to join a team, improve my skills and add value with my work."
+    },
+    "projects": {
+        "title": "My Projects"
+    },
+    "contact": {
+        "title": "Contact"
+    }
+}

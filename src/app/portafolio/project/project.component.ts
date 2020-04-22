@@ -9,11 +9,17 @@ export class ProjectComponent implements OnInit {
   @Input() img;
   @Input() title;
   @Input() description;
-  @Input() technologies: [];
+  @Input() technologies;
   @Input() live_url;
   @Input() github;
 
-  constructor() {}
+  techs;
 
-  ngOnInit() {}
+  constructor() { }
+
+  ngOnInit() {
+    // console.log(this.technologies.split(","));
+    this.techs = this.technologies.split(",");
+
+  }
 }

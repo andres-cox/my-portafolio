@@ -13,7 +13,6 @@ ul {
 }
 .project img {
   width: 100%;
-  // border: 1px #fff solid;
 }
 .project img:hover {
   opacity: 0.5;
@@ -57,7 +56,6 @@ ul {
   }
 }
 
-/* Small Screens */
 @media (max-width: 950px) {
   .item {
     grid-template-columns: 1fr;

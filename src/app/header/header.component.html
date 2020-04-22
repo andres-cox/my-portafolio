@@ -1,23 +1,24 @@
 <nav class="navbar bg-dark">
-  <h1><i class="fas fa-code"></i> Andres Cox</h1>
+  <h1>Andres Cox</h1>
   <ul>
     <li>
-      <a href="assets/projects/curriculum.pdf">RESUME</a>
+      <a href="assets/projects/curriculumCV.pdf" target="_blank">{{ 'header.resume' | translate }}</a>
     </li>
     <li>
-      <a href="assets/projects/curriculum.pdf">
+      <a href="assets/projects/curriculumCV.pdf" target="_blank">
         <i class="far fa-file fa-2x" style="color:white;"></i>
       </a>
     </li>
     <li>
-      <a href="https://github.com/andres-cox/">GITHUB</a>
-    </li>
+      <a href="https://github.com/andres-cox/" target="_blank">GITHUB</a>
     <li>
-      <a href="https://github.com/andres-cox/">
+      <a href="https://github.com/andres-cox/" target="_blank">
         <i class="fab fa-github fa-2x" style="color:white;"></i>
       </a>
     </li>
-    <li><a href="#idcontact">CONTACT</a></li>
+    <li><a href="#idcontact">{{ 'header.contact' | translate }}</a></li>
+    <li><a [ngClass]="{'active': activeLang == 'es'}" (click)="changeLanguage('es')">ESP</a></li>
+    <li><a [ngClass]="{'active': activeLang == 'en'}" (click)="changeLanguage('en')">ENG</a></li>
     <!-- <li><i class="fas fa-globe-americas fa-2x"></i></li> -->
   </ul>
 </nav>

@@ -1,0 +1,17 @@
+{
+    "header": {
+        "resume": "CURRICULUM",
+        "contact": "CONTACTO"
+    },
+    "home": {
+        "title": "Desarrollador de Software",
+        "descp1": "Hola, soy Andres Cox. Soy un desarrollador de Software de Bolivia, tengo manejo de diversos lenguajes de programacion orientado al Frontend y Backend",
+        "descp2": "Estudie Ingenieria Electronica y me especialice en Sistema. Busco la oportunidad de unirme a un equipo con conocimientos superiores al mio, para seguir aprendiendo de esta industria mientras aporto valor. "
+    },
+    "projects": {
+        "title": "Mis Proyectos"
+    },
+    "contact": {
+        "title": "Contacto"
+    }
+}

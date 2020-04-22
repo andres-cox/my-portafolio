@@ -1,6 +1,4 @@
-// Container
 .container {
-  // max-width: $max-width;
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
@@ -8,7 +6,6 @@
   margin-bottom: 3rem;
 }
 
-// Text Styles
 .x-large {
   font-size: 4rem;
   line-height: 1.2;
@@ -34,7 +31,6 @@
   border-radius: 50%;
 }
 
-// Buttons
 .btn {
   display: inline-block;
   background: $light-color;

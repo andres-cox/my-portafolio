@@ -9,6 +9,11 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { ProjectComponent } from './portafolio/project/project.component';
 
+import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { TranslationService } from './services/translation.service';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,9 +25,19 @@ import { ProjectComponent } from './portafolio/project/project.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    TranslateModule.forRoot({
+      loader: {
+        provide: TranslateLoader,
+        useFactory: (http: HttpClient) => {
+          return new TranslateHttpLoader(http);
+        },
+        deps: [HttpClient]
+      }
+    })
   ],
-  providers: [],
+  providers: [TranslationService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
