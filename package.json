@@ -24,7 +24,7 @@
     "@ngx-translate/core": "^12.1.2",
     "@ngx-translate/http-loader": "^4.0.0",
     "core-js": "^2.6.10",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "rxjs": "~6.3.3",
     "tslib": "^1.10.0",
     "zone.js": "~0.8.26"
